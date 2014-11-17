@@ -1,4 +1,3 @@
-plot1:  
   NEI <- readRDS("summarySCC_PM25.rds")
   
   yeargroup <- tapply(NEI$Emissions, NEI$year, sum)
